@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="EduRide Plugin Set">
+      EduRide Research Group eclipse plugin update site
+   </description>
+   <feature url="features/eduride_feature_0.1.0.jar" id="eduride_feature" version="0.1.0"/>
+</site>

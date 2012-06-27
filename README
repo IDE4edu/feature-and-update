@@ -1,0 +1,3 @@
+Two eclipse projects here:
+ - feature-project defines the eduride feature
+ - eduride-update-site is the update site and a shell script to send it to veritas

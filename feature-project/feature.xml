@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="eduride_feature"
+      label="Eduride_feature"
+      version="0.1.0">
+
+   <description url="http://ide4edu.github.com/docs/">
+      The eduRide plugins
+   </description>
+
+   <copyright url="http://ide4edu.github.com/docs/copyright.html">
+      Copyright UC Regents, 2012.
+   </copyright>
+
+   <license url="http://ide4edu.github.com/docs/copyright.html">
+      Copyright UC Regents, 2012.
+
+Basically, BSD.
+   </license>
+
+   <plugin
+         id="StudentView"
+         download-size="0"
+         install-size="0"
+         version="0.1.0"
+         unpack="false"/>
+
+</feature>
