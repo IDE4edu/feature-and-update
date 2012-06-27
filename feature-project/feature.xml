@@ -2,7 +2,7 @@
 <feature
       id="eduride_feature"
       label="Eduride_feature"
-      version="0.1.0">
+      version="0.1.1">
 
    <description url="http://ide4edu.github.com/docs/">
       The eduRide plugins
@@ -22,7 +22,7 @@ Basically, BSD.
          id="StudentView"
          download-size="0"
          install-size="0"
-         version="0.1.0"
+         version="0.1.1"
          unpack="false"/>
 
 </feature>
