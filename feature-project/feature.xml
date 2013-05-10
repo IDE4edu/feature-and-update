@@ -2,10 +2,10 @@
 <feature
       id="eduride_feature_all"
       label="Eduride Complete"
-      version="0.1.5">
+      version="0.1.6">
 
    <description url="http://ide4edu.github.com/docs/">
-      The eduRide plugins
+      The full set of eduRide plugins
    </description>
 
    <copyright url="http://ide4edu.github.com/docs/copyright.html">
@@ -18,18 +18,53 @@
 Basically, BSD.
    </license>
 
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.jdt.junit" version="3.6.0"/>
+      <import plugin="org.eclipse.core.resources" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.ui" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface.text" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.core.resources" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.debug.core" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.debug.ui" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.junit.runtime" version="3.4.300" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.junit.core" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.junit" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="EduRideBasePlugin" version="1.0.0" match="greaterOrEqual"/>
+   </requires>
+
    <plugin
-         id="StudentView"
+         id="EduRideBasePlugin"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="0.1.6"
          unpack="false"/>
 
    <plugin
-         id="EduRideJunitView"
+         id="EduRideFeedbackView"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="0.1.6"
+         unpack="false"/>
+
+   <plugin
+         id="edu.berkeley.eduride.loggerplugin"
+         download-size="0"
+         install-size="0"
+         version="0.1.6"
+         unpack="false"/>
+
+   <plugin
+         id="edu.berkeley.eduride.navigatorview"
+         download-size="0"
+         install-size="0"
+         version="0.1.6"
          unpack="false"/>
 
 </feature>
