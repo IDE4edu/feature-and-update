@@ -5,7 +5,11 @@
       version="1.0.1">
 
    <description url="http://ide4edu.github.com/docs/">
-      The full set of eduRide plugins
+      The full set of eduRide plugins:
+   Base
+   Logger
+   Navigator
+   Feeback
    </description>
 
    <copyright url="http://ide4edu.github.com/docs/copyright.html">
