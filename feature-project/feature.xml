@@ -2,14 +2,14 @@
 <feature
       id="eduride_feature_all"
       label="Eduride Complete"
-      version="1.0.1">
+      version="1.0.2">
 
    <description url="http://ide4edu.github.com/docs/">
       The full set of eduRide plugins:
-   Base
-   Logger
-   Navigator
-   Feeback
+-Base
+-Logger
+-Navigator
+-Feeback
    </description>
 
    <copyright url="http://ide4edu.github.com/docs/copyright.html">
