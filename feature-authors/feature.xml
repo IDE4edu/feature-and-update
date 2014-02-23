@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="feature_authors"
+      label="EduRide Author Feature"
+      version="1.0.3">
+
+   <description url="http://www.example.com/description">
+      EduRide authoring plugins...  
+(Students, there won&apos;t be any curriculum here!)
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright UC Regents, 2012.
+   </copyright>
+
+   <license url="http://ide4edu.github.com/docs/copyright.html">
+      Copyright UC Regents, 2012.
+
+Basically, BSD
+   </license>
+
+   <url>
+      <update label="EduRide" url="http://eduride.berkeley.edu/update/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="edu.berkeley.eduride.editorOverlay" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources"/>
+   </requires>
+
+   <plugin
+         id="edu.berkeley.eduride.authoringPlugin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
