@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="eduride_feature_all"
-      label="Eduride Complete"
-      version="1.0.2">
+      id="eduride_student_feature_all"
+      label="EduRide Student Feature Complete"
+      version="1.0.3">
 
    <description url="http://ide4edu.github.com/docs/">
-      The full set of eduRide plugins:
+      The full set of eduRide plugins for students:
 -Base
 -Logger
 -Navigator
 -Feeback
+-EditorOverlay
    </description>
 
    <copyright url="http://ide4edu.github.com/docs/copyright.html">
@@ -22,23 +23,32 @@
 Basically, BSD.
    </license>
 
+   <url>
+      <update label="EduRide Student" url="http://eduride.berkeley.edu/update/"/>
+   </url>
+
    <requires>
       <import plugin="org.eclipse.core.runtime"/>
       <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.console"/>
+      <import plugin="org.eclipse.core.resources" version="3.6.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.jdt.core" version="3.6.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.jdt.ui" version="3.6.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.ui.ide"/>
-      <import plugin="org.eclipse.core.resources" version="3.6.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.ui.editors"/>
-      <import plugin="org.eclipse.jdt.junit" version="3.6.0"/>
-      <import plugin="org.eclipse.jdt" version="3.6.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.jface.text" version="3.6.0" match="greaterOrEqual"/>
-      <import plugin="org.eclipse.jdt.junit.runtime" version="3.4.300" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="EduRideBasePlugin" version="1.0.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.junit" version="3.6.0"/>
+      <import plugin="org.eclipse.debug.ui" version="3.7.102" match="greaterOrEqual"/>
       <import plugin="org.eclipse.ui.ide" version="3.6.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.debug.core" version="3.6.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.debug.ui" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.junit.runtime" version="3.4.300" match="greaterOrEqual"/>
       <import plugin="org.eclipse.jdt.junit.core" version="3.6.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.jdt.junit" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="EduRideFeedbackView" version="1.0.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.swt"/>
    </requires>
 
    <plugin
@@ -64,6 +74,13 @@ Basically, BSD.
 
    <plugin
          id="edu.berkeley.eduride.navigatorview"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="edu.berkeley.eduride.editorOverlay"
          download-size="0"
          install-size="0"
          version="0.0.0"
