@@ -26,7 +26,7 @@ Basically, BSD
    <requires>
       <import plugin="org.eclipse.ui"/>
       <import plugin="org.eclipse.core.runtime"/>
-      <import plugin="edu.berkeley.eduride.editorOverlay" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="edu.berkeley.eduride.editorOverlay" version="1.0.3" match="greaterOrEqual"/>
       <import plugin="org.eclipse.core.resources"/>
    </requires>
 
