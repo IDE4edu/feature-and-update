@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="feature_authors"
-      label="EduRide Author Feature"
-      version="1.0.3">
+      id="eduride_authors"
+      label="EduRide Author"
+      version="1.0.3.qualifier">
 
    <description url="http://www.example.com/description">
       EduRide authoring plugins...  

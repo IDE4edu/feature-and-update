@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Eduride Authors update site" url="http://eduride.berkeley.edu/eclipse-update-site-author/">
+      Contains the authoring plugin
+   </description>
+   <feature url="features/eduride_authors_1.0.3.201403181518.jar" id="eduride_authors" version="1.0.3.201403181518">
+      <category name="authors"/>
+   </feature>
+   <category-def name="authors" label="authors"/>
+</site>

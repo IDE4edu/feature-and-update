@@ -3,12 +3,8 @@
    <description name="EduRide Plugin Set" url="http://eduride.berkeley.edu/update/">
       EduRide Research Group eclipse plugin update site
    </description>
-   <feature url="features/feature_authors_1.0.3.jar" id="feature_authors" version="1.0.3">
-      <category name="authoring"/>
+   <feature url="features/eduride_student_all_1.0.3.201403311520.jar" id="eduride_student_all" version="1.0.3.201403311520">
+      <category name="student"/>
    </feature>
-   <feature url="features/eduride_student_feature_all_1.0.3.jar" id="eduride_student_feature_all" version="1.0.3">
-      <category name="edu.berkeley.eduride.full"/>
-   </feature>
-   <category-def name="edu.berkeley.eduride.full" label="EduRide Student"/>
-   <category-def name="authoring" label="Curriculum Authoring"/>
+   <category-def name="student" label="EduRide Student"/>
 </site>
